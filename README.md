@@ -30,6 +30,8 @@ CMD (tail -F /var/log/nginx/access.log &) && exec nginx -g "daemon off;"
 2. Add 'master' branch
 2. Set port as 80
 
+![](https://raw.githubusercontent.com/ainize-team/javascript-tetris/master/res/deploy.gif)
+
 ### Step.5 Enjoy tetris
 
 https://master-javascript-tetris-laeyoung.endpoint.ainize.ai/ (change __laeyoung__ to __YOUR-GITHUB-ID__)
