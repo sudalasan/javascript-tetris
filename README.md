@@ -1,10 +1,12 @@
 # Tetris on Ainize!
 
-[![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/javascript-tetris)
+### Step.1 Fork javascript-tetris
 
-### Step.1 Fork this repo
-Check forked repo
+Fork this repo and check your forked repo
 `https://github.com/${YOUR-GITHUB-ID}/javascript-tetris`
+
+![](https://raw.githubusercontent.com/ainize-team/javascript-tetris/master/res/fork-repo.gif)
+
 
 ### Step.2 Create Dockerfile, and paste below code in the Dockerfile
 ```
@@ -18,6 +20,8 @@ EXPOSE 80
 CMD (tail -F /var/log/nginx/access.log &) && exec nginx -g "daemon off;"
 ```
 
+![](https://raw.githubusercontent.com/ainize-team/javascript-tetris/master/res/create-dockerfile.gif)
+
 ### Step.3 Sign up and apply beta test at [Ainize.ai](https://ainize.ai)
 
 ### Step.4 Deploy Tetris on Ainize ([Tutorial](https://ai-network.gitbook.io/ainize-tutorials/ainize/hello-world#ainize-steps))
@@ -29,6 +33,10 @@ CMD (tail -F /var/log/nginx/access.log &) && exec nginx -g "daemon off;"
 ### Step.5 Enjoy tetris
 
 https://master-javascript-tetris-laeyoung.endpoint.ainize.ai/ (change __laeyoung__ to __YOUR-GITHUB-ID__)
+
+and update __Run on Ainize__ button as yours
+
+[![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/javascript-tetris)
 
 
 Javascript Tetris
