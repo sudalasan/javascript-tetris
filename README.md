@@ -24,7 +24,7 @@ CMD (tail -F /var/log/nginx/access.log &) && exec nginx -g "daemon off;"
 
 ### Step.3 Sign up and apply beta test at [Ainize.ai](https://ainize.ai)
 
-### Step.4 Deploy Tetris on Ainize ([Tutorial](https://ai-network.gitbook.io/ainize-tutorials/ainize/hello-world#ainize-steps))
+### Step.4 Deploy Tetris on Ainize ([Tutorial](https://ai-network.gitbook.io/ainize-tutorials/getting-started/ainize))
 
 1. Enter your Github repo url, `https://github.com/${YOUR-GITHUB-ID}/javascript-tetris`
 2. Add 'master' branch
