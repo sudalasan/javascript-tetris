@@ -38,7 +38,7 @@ https://master-javascript-tetris-laeyoung.endpoint.ainize.ai/ (change __laeyoung
 
 and update __Run on Ainize__ button as yours
 
-[![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/Laeyoung/javascript-tetris)
+[![Run on Ainize](https://ainize.herokuapp.com/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/ainize-team/javascript-tetris)
 
 
 Javascript Tetris
